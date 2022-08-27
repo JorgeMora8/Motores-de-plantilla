@@ -1,0 +1,160 @@
+* { 
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+
+.color { 
+  color: green;
+}
+
+
+.titulo { 
+  font-size: 1.8rem;
+  color: #424242;
+  text-align: center;
+  padding: 20px;
+}
+
+.areaFormularioContainer { 
+  width: 100%;
+height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  padding: 20px
+}
+
+.areaFormulario{ 
+  width: 30rem;
+  height: 30rem;
+  background-color: aliceblue;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.Formulario{ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.identificadorInput { 
+  font-size: 1.3rem;
+  color: #424242;
+  font-weight: 400;
+}
+
+.input { 
+  width: 17rem;
+  padding: 3px 5px;
+}
+
+.tituloFormulario{ 
+  font-size: 1.7rem;
+  color: #424242;
+  margin: 10px 0px;
+}
+
+.inputBtn { 
+  width: 10rem;
+  margin: 20px 0px;
+  background-color: rgb(74, 52, 182);
+  color:#fff;
+  padding: 5px 5px;
+  font-size: 1.2rem;
+  border: none;
+  transition: 0.5s ease;
+  border-radius: 0.2rem;
+}
+
+.inputBtn:hover { 
+  background-color: rgb(85, 51, 255);
+  border-radius: 1.5rem;
+}
+
+.productosContainer { 
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: aliceblue;
+}
+
+.Producto{ 
+  width: 20rem;
+  height: 25rem;
+  background-color: rgb(255, 255, 255);
+  margin: 10px;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 1rem;
+  box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+
+.imgProducto{ 
+  width: 10rem;
+  height: 10rem;
+}
+
+.img{ 
+  width:120px;
+  height: auto;
+}
+
+.nombreProducto { 
+  font-size: 1.5rem;
+}
+
+.precioProducto{ 
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: slateblue;
+}
+
+.areaBtn{ 
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.btn{ 
+  text-decoration: none;
+  margin: 20px;
+  padding: 10px;
+  font-size: 1rem;
+  background-color: rgb(92, 63, 236);
+  border: none;
+  transition: 0.5s ease;
+}
+
+.link{ 
+  text-decoration: none;
+  color: #fff;
+}
+
+.btn:hover { 
+  background-color: rgb(86, 43, 226);
+  border-radius: 1rem;
+}

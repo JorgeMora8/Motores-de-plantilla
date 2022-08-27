@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/stylesheets/style.css" />
+  </head>
+  <body>
+    <%- include("Templates/Cabecer") %>
+    <div class="areaFormularioContainer">
+      <div class="areaFormulario">
+        <h1 class="tituloFormulario">Agregar Productos</h1>
+        <form action="/Productos/" class="Formulario" method="post">
+          <label for="" class="identificadorInput">Nombre</label>
+          <input type="text" class="input" name="nombre" />
+
+          <label for="" class="identificadorInput">Precio</label>
+          <input type="text" class="input" name="precio" />
+
+          <label for="" class="identificadorInput">Imagen</label>
+          <input type="text" class="input" name="img" />
+
+          <input type="submit" class="inputBtn" />
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
